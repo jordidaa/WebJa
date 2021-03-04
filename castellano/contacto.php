@@ -51,7 +51,7 @@
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
                     <label class="form-check- roboto" for="invalidCheck">
-                        Acepto la <a class="negre" href="https://jardineriaalgarrada.000webhostapp.com/catala/politica-de-privadesa.php">política de privacidad</a>
+                        Acepto la <a class="negre" href="http://localhost/webja/catala/politica-de-privadesa.php">política de privacidad</a>
                     </label>
                     <div class="invalid-feedback">
                         Haz click para poder enviar

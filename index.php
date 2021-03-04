@@ -10,9 +10,9 @@
         <?php include ('includes/navegacio_cat.php')?>
         <div id="slider" class="slider">
 	  <!-- Images -->
-	  <div class="slider-item active" style="background-image: url(https://jardineriaalgarrada.000webhostapp.com/imatges/imag1_bona.jpg)"></div>
-	  <div class="slider-item" style="background-image: url(https://jardineriaalgarrada.000webhostapp.com/imatges/imag2_bona.jpg)"></div>
-	  <div class="slider-item" style="background-image: url(https://jardineriaalgarrada.000webhostapp.com/imatges/imag3_bona.jpg)"></div>
+	  <div class="slider-item active" style="background-image: url(./imatges/imag1_bona.jpg)"></div>
+	  <div class="slider-item" style="background-image: url(./imatges/imag2_bona.jpg)"></div>
+	  <div class="slider-item" style="background-image: url(./imatges/imag3_bona.jpg)"></div>
 	  <!-- Controls -->
 	  <div class="slider-panel">
 	    <div class="slider-panel__navigation">
@@ -40,7 +40,7 @@
             </div>
                 <div class="row inicidoscol verdclarbg">
                     <div class="mt-4 col-xl-6 col-md-12">
-                        <img src="https://jardineriaalgarrada.000webhostapp.com/imatges/jardiners_bona.jpg" width="100%">
+                        <img src="./imatges/jardiners_bona.jpg" width="100%">
                     </div>
                     <div class="col-xl-6 col-md-12">
                         <h2 class="mt-4 text-center  bebas">Qui sóm</h2>
@@ -59,12 +59,12 @@
                         <button id="singlebutton" name="singlebutton" class="btn btn-primary botbrown btnmesinfo roboto" onclick="window.location.href='catala/jardins.php';">Més informació</button>
                     </div>
                     <div class="mt-4 col-xl-6 order-xl-2 col-md-12 order-1">
-                        <img src="https://jardineriaalgarrada.000webhostapp.com/imatges/jardins_portada.jpg" width="100%">                       
+                        <img src="./imatges/jardins_portada.jpg" width="100%">                       
                     </div>
                 </div>
                 <div class="row inicidoscol verdclarbg">
                     <div class="mt-4 col-xl-6 col-md-12">
-                        <img src="https://jardineriaalgarrada.000webhostapp.com/imatges/paisetgisme_portada.jpg" width="100%">
+                        <img src="./imatges/paisetgisme_portada.jpg" width="100%">
                     </div>
                     <div class="col-xl-6 col-md-12">
                         <h2 class="mt-4 text-center  bebas">Paisatgisme</h2>
@@ -83,12 +83,12 @@
                         <button id="singlebutton" name="singlebutton" class="btn btn-primary botbrown btnmesinfo roboto" onclick="window.location.href='catala/sistemesdereg.php';">Més informació</button>
                     </div>
                     <div class="mt-4 col-xl-6 order-xl-2 col-md-12 order-1">
-                        <img src="https://jardineriaalgarrada.000webhostapp.com/imatges/reg_portada.jpg" width="100%">                       
+                        <img src="./imatges/reg_portada.jpg" width="100%">                       
                     </div>
                 </div>
                 <div class="row inicidoscol verdclarbg">
                     <div class="mt-4 col-xl-6 col-md-12">
-                        <img src="https://jardineriaalgarrada.000webhostapp.com/imatges/piscines_portada.jpg" width="100%">
+                        <img src="./imatges/piscines_portada.jpg" width="100%">
                     </div>
                     <div class="col-xl-6 col-md-12">
                         <h2 class="mt-4 text-center  bebas">Piscines</h2>
@@ -100,8 +100,8 @@
                 </div>
                 <div class="row inicidoscol verdfoscbg">
                     <div class="mt-4 col">
-                        <img class="imgmant" src="https://jardineriaalgarrada.000webhostapp.com/imatges/manteniment_portada.jpg">
-                        <img class="imgmantmob" src="https://jardineriaalgarrada.000webhostapp.com/imatges/manteniment_portada_mobil.jpg">
+                        <img class="imgmant" src="./imatges/manteniment_portada.jpg">
+                        <img class="imgmantmob" src="./imatges/manteniment_portada_mobil.jpg">
                     </div>
                     <div>
                         <h2 class="mt-4 text-center  bebas">Manteniment</h2>
@@ -115,7 +115,7 @@
             <?php include ('includes/footer.php')?>
         </footer>
         
-        <script src="https://jardineriaalgarrada.000webhostapp.com/js/main.js"></script> 
+        <script src="./js/main.js"></script> 
         <script type="text/javascript">  
     $(document).ready(function() {
         $('#adaptive').lightSlider({

@@ -24,7 +24,7 @@
                     <div class="col-xl-4 col-md-12">
                         <div class="dinsquefem">
                         <a href="#" class="pop">
-                        <img src="https://jardineriaalgarrada.000webhostapp.com/imatges/jardins1.jpg" width="100%">
+                        <img src="http://localhost/webja/imatges/jardins1.jpg" width="100%">
                     </a>
                     <p class="roboto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate vehicula vestibulum. 
                 Praesent sit amet nisi justo. Nulla sit amet purus nec arcu vestibulum porta. Pellentesque feugiat metus vel augue 
@@ -34,7 +34,7 @@
                     <div class="col-xl-4 col-md-12">
                         <div class="dinsquefem">
                         <a href="#" class="pop">
-                        <img src="https://jardineriaalgarrada.000webhostapp.com/imatges/jardins2.jpg" width="100%">
+                        <img src="http://localhost/webja/imatges/jardins2.jpg" width="100%">
                     </a>
                         <p class="roboto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate vehicula vestibulum. 
                 Praesent sit amet nisi justo. Nulla sit amet purus nec arcu vestibulum porta. Pellentesque feugiat metus vel augue 
@@ -44,7 +44,7 @@
                     <div class="col-xl-4 col-md-12">
                         <div class="dinsquefem">
                         <a href="#" class="pop">
-                        <img src="https://jardineriaalgarrada.000webhostapp.com/imatges/jardins3.jpg" width="100%">
+                        <img src="http://localhost/webja/imatges/jardins3.jpg" width="100%">
                     </a>
                         <p class="roboto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate vehicula vestibulum. 
                 Praesent sit amet nisi justo. Nulla sit amet purus nec arcu vestibulum porta. Pellentesque feugiat metus vel augue 
@@ -56,7 +56,7 @@
                     <div class="col-xl-4 col-md-12">
                     <div class="dinsquefem">
                         <a href="#" class="pop">
-                        <img src="https://jardineriaalgarrada.000webhostapp.com/imatges/jardins4.jpg" width="100%">
+                        <img src="http://localhost/webja/imatges/jardins4.jpg" width="100%">
                     </a> 
                     <p class="roboto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate vehicula vestibulum. 
                 Praesent sit amet nisi justo. Nulla sit amet purus nec arcu vestibulum porta. Pellentesque feugiat metus vel augue 
@@ -66,7 +66,7 @@
                     <div class="col-xl-4 col-md-12">
                         <div class="dinsquefem">
                         <a href="#" class="pop">
-                        <img src="https://jardineriaalgarrada.000webhostapp.com/imatges/jardins5.jpg" width="100%">
+                        <img src="http://localhost/webja/imatges/jardins5.jpg" width="100%">
                         </a>
                         <p class="roboto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate vehicula vestibulum. 
                 Praesent sit amet nisi justo. Nulla sit amet purus nec arcu vestibulum porta. Pellentesque feugiat metus vel augue 
@@ -76,7 +76,7 @@
                     <div class="col-xl-4 col-md-12">
                         <div class="dinsquefem">
                         <a href="#" class="pop">
-                        <img src="https://jardineriaalgarrada.000webhostapp.com/imatges/jardins6.jpg" width="100%">
+                        <img src="http://localhost/webja/imatges/jardins6.jpg" width="100%">
                         </a>
                         <p class="roboto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vulputate vehicula vestibulum. 
                 Praesent sit amet nisi justo. Nulla sit amet purus nec arcu vestibulum porta. Pellentesque feugiat metus vel augue 

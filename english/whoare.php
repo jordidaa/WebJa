@@ -22,7 +22,7 @@
             </div>
             <div class="row inicidoscol">
                     <div class="mt-4 col">
-                        <img class="imgmant" src="https://jardineriaalgarrada.000webhostapp.com/imatges/manteniment_portada.jpg">
+                        <img class="imgmant" src="http://localhost/webja/imatges/manteniment_portada.jpg">
                     </div>
                     <div>
                         <h2 class="mt-4 text-center  bebas">Manteniment</h2>
