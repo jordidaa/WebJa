@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jardineria Algarrada</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../../Css/ja.Css">
+        <link rel="icon" type="image/jpeg" href="../../Imatges/logo1.png">
+        <meta name="keywords" content="Jardiners,Jardineros,Gardeners,Jardins,Jardines,Gardens,Algarrada,Girona,La Bisbal">
+    </head>
+    <body>
+        <!--menu-->
+        <ul class="men">
+          <li><a href="../../principal.html"><img src="../../Imatges/logo1.png" width="120" height="100"></a></li>
+          <div class="dreta">
+          <li><a href="quisom.html">Qui som</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Que fem</a>
+            <div class="dropdown-content">
+              <a href="jardins.html">Jardins</a>
+              <a href="quefem2.html">2</a>
+              <a href="quefem3.html">3</a>
+            </div>
+          </li>
+          <li><a href="manteniment.html">Manteniment</a></li>
+          <li><a href="contacte.html">Contacte</a></li>
+          <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Idiomes</a>
+              <div class="dropdown-content">
+                  <a href="principal.html"><img src="../../Imatges/Cat.png" width="18" height="12">Català</a>
+                  <a href="../Castellano/inicial.html"><img src="../../Imatges/Esp.png" width="18" height="12">Cstellá</a>
+                  <a href="../English/first.html"><img src="../../Imatges/Eng.png" width="18" height="12">Ángles</a>
+              </div>
+            </li>
+            </div>
+        </ul>
+        <div class="sobre" >
+            <p class="sobretit">Que fem 2</p>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut 
+                aliquip ex ea commodo consequat. Duis 
+                aute irure dolor in reprehenderit in 
+                voluptate velit esse cillum dolore eu 
+                fugiat nulla pariatur.
+            </p>
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut 
+                aliquip ex ea commodo consequat. Duis 
+                aute irure dolor in reprehenderit in 
+                voluptate velit esse cillum dolore eu 
+                fugiat nulla pariatur.
+            </p>  
+            <p>Lorem ipsum dolor sit amet, 
+                consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt 
+                ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud 
+                exercitation ullamco laboris nisi ut 
+                aliquip ex ea commodo consequat. Duis 
+                aute irure dolor in reprehenderit in 
+                voluptate velit esse cillum dolore eu 
+                fugiat nulla pariatur.
+            </p> 
+        </div>
+        <!--horitzontal 1-->
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                  <div class="row1">
+                      <div class="column">
+                        <img src="../../Imatges/imag1.jpeg" width="350px" height="200px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor" >
+                      </div>
+                    </div>
+                    
+                    <div id="myModal" class="modal">
+                      <span class="close cursor" onclick="closeModal()">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">1 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">2 / 4</div>
+                          <img src="../../Imatges/imag2.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">3 / 4</div>
+                          <img src="../../Imatges/imag3.jpeg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                          <div class="numbertext">4 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <div class="caption-container">
+                          <p id="caption"></p>
+                        </div>
+                    
+                    
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag2.jpeg" style="width:25%" onclick="currentSlide(2)" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag3.jpeg" style="width:25%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                      </div>
+                    </div>
+                  <div class="caption">
+                      <h2>Jardins</h2>
+                      <p>
+                          Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit, 
+                          sed do eiusmod tempor incididunt 
+                          ut labore et dolore magna aliqua. 
+                          Ut enim ad minim veniam, quis nostrud 
+                          exercitation ullamco laboris nisi ut 
+                          aliquip ex ea commodo consequat. Duis 
+                          aute irure dolor in reprehenderit in 
+                          voluptate velit esse cillum dolore eu 
+                          fugiat nulla pariatur.
+                      </p>
+                      <a class="btn btn-block btn-primary">Feu clic a la foto per veure més imatges</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                  <div class="row1">
+                      <div class="column">
+                        <img src="../../Imatges/imag2.jpeg" width="350px" height="200px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                      </div>
+                    </div>
+                    
+                    <div id="myModal" class="modal">
+                      <span class="close cursor" onclick="closeModal()">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">1 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">2 / 4</div>
+                          <img src="../../Imatges/imag2.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">3 / 4</div>
+                          <img src="../../Imatges/imag3.jpeg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                          <div class="numbertext">4 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <div class="caption-container">
+                          <p id="caption"></p>
+                        </div>
+                    
+                    
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag2.jpeg" style="width:25%" onclick="currentSlide(2)" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag3.jpeg" style="width:25%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                      </div>
+                    </div>
+                  <div class="caption">
+                      <h2>2</h2>
+                      <p>
+                          Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud 
+              exercitation ullamco laboris nisi ut 
+              aliquip ex ea commodo consequat. Duis 
+              aute irure dolor in reprehenderit in 
+              voluptate velit esse cillum dolore eu 
+              fugiat nulla pariatur.
+                      </p>
+                      <a class="btn btn-block btn-primary">Feu clic a la foto per veure més imatges</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <div class="row1">
+                      <div class="column">
+                        <img src="../../Imatges/imag3.jpeg" width="350px" height="200px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                      </div>
+                    </div>
+                    
+                    <div id="myModal" class="modal">
+                      <span class="close cursor" onclick="closeModal()">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">1 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">2 / 4</div>
+                          <img src="../../Imatges/imag2.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">3 / 4</div>
+                          <img src="../../Imatges/imag3.jpeg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                          <div class="numbertext">4 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <div class="caption-container">
+                          <p id="caption"></p>
+                        </div>
+                    
+                    
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag2.jpeg" style="width:25%" onclick="currentSlide(2)" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag3.jpeg" style="width:25%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                      </div>
+                    </div>
+                  <div class="caption">
+                      <h2>1</h2>
+                      <p>
+                          Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud 
+              exercitation ullamco laboris nisi ut 
+              aliquip ex ea commodo consequat. Duis 
+              aute irure dolor in reprehenderit in 
+              voluptate velit esse cillum dolore eu 
+              fugiat nulla pariatur.
+                      </p>
+                      <a class="btn btn-block btn-primary">Feu clic a la foto per veure més imatges</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+      <!--horitzontal 2-->
+      <div class="row">
+          <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                  <div class="row1">
+                      <div class="column">
+                        <img src="../../Imatges/imag1.jpeg" width="350px" height="200px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                      </div>
+                    </div>
+                    
+                    <div id="myModal" class="modal">
+                      <span class="close cursor" onclick="closeModal()">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">1 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">2 / 4</div>
+                          <img src="../../Imatges/imag2.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">3 / 4</div>
+                          <img src="../../Imatges/imag3.jpeg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                          <div class="numbertext">4 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <div class="caption-container">
+                          <p id="caption"></p>
+                        </div>
+                    
+                    
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag2.jpeg" style="width:25%" onclick="currentSlide(2)" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag3.jpeg" style="width:25%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                      </div>
+                    </div>
+                  <div class="caption">
+                      <h2>Jardins</h2>
+                      <p>
+                          Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit, 
+                          sed do eiusmod tempor incididunt 
+                          ut labore et dolore magna aliqua. 
+                          Ut enim ad minim veniam, quis nostrud 
+                          exercitation ullamco laboris nisi ut 
+                          aliquip ex ea commodo consequat. Duis 
+                          aute irure dolor in reprehenderit in 
+                          voluptate velit esse cillum dolore eu 
+                          fugiat nulla pariatur.
+                      </p>
+                      <a class="btn btn-block btn-primary">Feu clic a la foto per veure més imatges</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                  <div class="row1">
+                      <div class="column">
+                        <img src="../../Imatges/imag2.jpeg" width="350px" height="200px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                      </div>
+                    </div>
+                    
+                    <div id="myModal" class="modal">
+                      <span class="close cursor" onclick="closeModal()">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">1 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">2 / 4</div>
+                          <img src="../../Imatges/imag2.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">3 / 4</div>
+                          <img src="../../Imatges/imag3.jpeg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                          <div class="numbertext">4 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <div class="caption-container">
+                          <p id="caption"></p>
+                        </div>
+                    
+                    
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag2.jpeg" style="width:25%" onclick="currentSlide(2)" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag3.jpeg" style="width:25%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                      </div>
+                    </div>
+                  <div class="caption">
+                      <h2>2</h2>
+                      <p>
+                          Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud 
+              exercitation ullamco laboris nisi ut 
+              aliquip ex ea commodo consequat. Duis 
+              aute irure dolor in reprehenderit in 
+              voluptate velit esse cillum dolore eu 
+              fugiat nulla pariatur.
+                      </p>
+                      <a class="btn btn-block btn-primary">Feu clic a la foto per veure més imatges</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <div class="row1">
+                      <div class="column">
+                        <img src="../../Imatges/imag3.jpeg" width="350px" height="200px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                      </div>
+                    </div>
+                    
+                    <div id="myModal" class="modal">
+                      <span class="close cursor" onclick="closeModal()">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">1 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">2 / 4</div>
+                          <img src="../../Imatges/imag2.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">3 / 4</div>
+                          <img src="../../Imatges/imag3.jpeg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                          <div class="numbertext">4 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <div class="caption-container">
+                          <p id="caption"></p>
+                        </div>
+                    
+                    
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag2.jpeg" style="width:25%" onclick="currentSlide(2)" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag3.jpeg" style="width:25%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                      </div>
+                    </div>
+                  <div class="caption">
+                      <h2>1</h2>
+                      <p>
+                          Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud 
+              exercitation ullamco laboris nisi ut 
+              aliquip ex ea commodo consequat. Duis 
+              aute irure dolor in reprehenderit in 
+              voluptate velit esse cillum dolore eu 
+              fugiat nulla pariatur.
+                      </p>
+                      <a class="btn btn-block btn-primary">Feu clic a la foto per veure més imatges</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+      <!--horitzontal 3-->
+      <div class="row">
+          <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                  <div class="row1">
+                      <div class="column">
+                        <img src="../../Imatges/imag1.jpeg" width="350px" height="200px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                      </div>
+                    </div>
+                    
+                    <div id="myModal" class="modal">
+                      <span class="close cursor" onclick="closeModal()">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">1 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">2 / 4</div>
+                          <img src="../../Imatges/imag2.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">3 / 4</div>
+                          <img src="../../Imatges/imag3.jpeg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                          <div class="numbertext">4 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <div class="caption-container">
+                          <p id="caption"></p>
+                        </div>
+                    
+                    
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag2.jpeg" style="width:25%" onclick="currentSlide(2)" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag3.jpeg" style="width:25%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                      </div>
+                    </div>
+                  <div class="caption">
+                      <h2>Jardins</h2>
+                      <p>
+                          Lorem ipsum dolor sit amet, 
+                          consectetur adipiscing elit, 
+                          sed do eiusmod tempor incididunt 
+                          ut labore et dolore magna aliqua. 
+                          Ut enim ad minim veniam, quis nostrud 
+                          exercitation ullamco laboris nisi ut 
+                          aliquip ex ea commodo consequat. Duis 
+                          aute irure dolor in reprehenderit in 
+                          voluptate velit esse cillum dolore eu 
+                          fugiat nulla pariatur.
+                      </p>
+                      <a class="btn btn-block btn-primary">Feu clic a la foto per veure més imatges</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+              <div class="thumbnail">
+                  <div class="row1">
+                      <div class="column">
+                        <img src="../../Imatges/imag2.jpeg" width="350px" height="200px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                      </div>
+                    </div>
+                    
+                    <div id="myModal" class="modal">
+                      <span class="close cursor" onclick="closeModal()">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">1 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">2 / 4</div>
+                          <img src="../../Imatges/imag2.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">3 / 4</div>
+                          <img src="../../Imatges/imag3.jpeg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                          <div class="numbertext">4 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <div class="caption-container">
+                          <p id="caption"></p>
+                        </div>
+                    
+                    
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag2.jpeg" style="width:25%" onclick="currentSlide(2)" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag3.jpeg" style="width:25%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                      </div>
+                    </div>
+                  <div class="caption">
+                      <h2>2</h2>
+                      <p>
+                          Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud 
+              exercitation ullamco laboris nisi ut 
+              aliquip ex ea commodo consequat. Duis 
+              aute irure dolor in reprehenderit in 
+              voluptate velit esse cillum dolore eu 
+              fugiat nulla pariatur.
+                      </p>
+                      <a class="btn btn-block btn-primary">Feu clic a la foto per veure més imatges</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                  <div class="row1">
+                      <div class="column">
+                        <img src="../../Imatges/imag3.jpeg" width="350px" height="200px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                      </div>
+                    </div>
+                    
+                    <div id="myModal" class="modal">
+                      <span class="close cursor" onclick="closeModal()">&times;</span>
+                      <div class="modal-content">
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">1 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">2 / 4</div>
+                          <img src="../../Imatges/imag2.jpeg" style="width:100%">
+                        </div>
+                    
+                        <div class="mySlides">
+                          <div class="numbertext">3 / 4</div>
+                          <img src="../../Imatges/imag3.jpeg" style="width:100%">
+                        </div>
+                        
+                        <div class="mySlides">
+                          <div class="numbertext">4 / 4</div>
+                          <img src="../../Imatges/imag1.jpeg" style="width:100%">
+                        </div>
+                        
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                        <div class="caption-container">
+                          <p id="caption"></p>
+                        </div>
+                    
+                    
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag2.jpeg" style="width:25%" onclick="currentSlide(2)" alt="Snow">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag3.jpeg" style="width:25%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                        </div>
+                        <div class="column">
+                          <img class="demo cursor" src="../../Imatges/imag1.jpeg" style="width:25%" onclick="currentSlide(4)" alt="Northern Lights">
+                        </div>
+                      </div>
+                    </div>
+                  <div class="caption">
+                      <h2>1</h2>
+                      <p>
+                          Lorem ipsum dolor sit amet, 
+              consectetur adipiscing elit, 
+              sed do eiusmod tempor incididunt 
+              ut labore et dolore magna aliqua. 
+              Ut enim ad minim veniam, quis nostrud 
+              exercitation ullamco laboris nisi ut 
+              aliquip ex ea commodo consequat. Duis 
+              aute irure dolor in reprehenderit in 
+              voluptate velit esse cillum dolore eu 
+              fugiat nulla pariatur.
+                      </p>
+                      <a class="btn btn-block btn-primary">Feu clic a la foto per veure més imatges</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </section>
+      <footer>
+          <table class="tabfoot">
+              <tr>
+                  <td><img src="../../Imatges/Telef.png" width="50" height="50"></td>
+                  <td><p>Telefon</p></td>
+                  <td><img src="../../Imatges/Cal.png" width="50" height="50"></td>
+                  <td><p>Horari</p></td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td><p>Mobil</p></td>
+                  <td></td>
+                  <td><p>Dias</p></td>
+              </tr>
+              <tr>
+                  <td></td>
+                  <td><p>Correu</p></td>
+                  <td></td>
+                  <td></td>
+              </tr>
+              <tr class="verdfort">
+                  <td colspan="6"><p class="pull-left">&copy; 2020. Jardineria Algarrada</p></td>
+              </tr>
+          </table>
+      </footer>
+      <script src="../../JS/jajs.js"></script>
+      <a href="#up" class="simplescrollup__button simplescrollup__button--hide"><img src="../../Imatges/fletcha.png" height="50" width="50"></a>
+      <script src="../../JS/simplescrollup.js"></script>
+      <script>
+          function openModal() {
+            document.getElementById("myModal").style.display = "block";
+          }
+          
+          function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+          }
+          
+          var slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+          }
+          </script>
+  </body>
+</html>
